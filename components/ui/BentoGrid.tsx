@@ -46,13 +46,13 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Next", "Typescript"];
-  const rightLists = ["Node", "Express", "MongoDB"];
+  const leftLists = ["Python", "Canva"];
+  const rightLists = ["Microsoft Office", "PowerPoint"];
 
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const text = "dev.huzaif@gmil.com";
+    const text = "mehedihasan112153@gmail.com";
     try {
       navigator.clipboard.writeText(text);
       setCopied(true);

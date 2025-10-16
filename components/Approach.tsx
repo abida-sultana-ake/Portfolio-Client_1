@@ -13,11 +13,11 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Discovery & Roadmap"
+          title="Discovery & Research Plan"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We’ll explore your vision, define core objectives, and create a clear roadmap. 
-  Together, we’ll outline features, user journey, and the structure that brings your 
-  idea to life."
+          des="We’ll explore research questions, define objectives, and create a clear plan. 
+Together, we’ll outline experiments, methodologies, and the approach to bring 
+innovative agricultural solutions to life."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,11 +25,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Design & Iteration"
+          title="Experiment & Analysis"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Turning ideas into visuals — I design clean, user-focused layouts and keep 
-  you in the loop with constant updates. Feedback fuels iterations until it feels 
-  just right."
+          des="Turning hypotheses into actionable experiments — I design structured trials, 
+collect data meticulously, and analyze results. Continuous refinement ensures 
+research accuracy and meaningful insights."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,11 +42,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Build & Launch"
+          title="Findings & Impact"
           icon={<AceternityIcon order="Phase 3" />}
-          des="With design locked, I bring it to life in code — optimizing for performance, 
-  scalability, and a seamless experience. Finally, we launch your project with 
-  confidence."
+          des="With validated results, I synthesize findings into actionable insights, 
+publish research, and implement sustainable agricultural solutions that create 
+real-world impact."
         >
           <CanvasRevealEffect
             animationSpeed={3}

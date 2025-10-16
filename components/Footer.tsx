@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
+          Ready to take <span className="text-purple">your</span> research
           presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
@@ -25,7 +25,7 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=dev.huzaif@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=mehedihasan112153@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -38,17 +38,20 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Huzaif Ahmed
+          Copyright © 2025 Mehedi Hasan
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
-            <div
+            <a
               key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              href={info.link} 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 cursor-pointer"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
-            </div>
+              <img src={info.img} alt="icon" width={20} height={20} />
+            </a>
           ))}
         </div>
       </div>
