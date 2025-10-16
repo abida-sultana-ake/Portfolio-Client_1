@@ -1,3 +1,4 @@
+{/* eslint-disable-next-line react/no-unescaped-entities */}
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -59,7 +60,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I'm Mehedi, an agriculture student and emerging researcher
+            Hi! I&apos;m Mehedi, an agriculture student and emerging researcher
             focused on sustainable farming practices, smart agricultural
             technologies, and the application of bioinformatics in crop science.
             My goal is to contribute to data-driven, climate-resilient, and
